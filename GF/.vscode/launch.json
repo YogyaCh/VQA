@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--device_id", "0",
+                "--test_only", "1",
+                "--qa_dataset", "star",
+                "--base_data_dir", "dataset/STAR",
+                "--reload_model_path", "expm/star/gf_logs/ckpts_2024-01-17T10-30"
+            ]
+        }
+    ]
+}
